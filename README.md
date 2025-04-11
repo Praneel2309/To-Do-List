@@ -96,9 +96,9 @@ This app is more than a project—it's a toolkit for organization and a lesson i
 
 ### 👨‍💻 Team Members:
 
+- 📌 Praneel Sharma - 202401166 
 - 📌 Nihar Patel - 202401148  
-- 📌 Raj Patel - 202401153  
-- 📌 Praneel Sharma - 202401166  
+- 📌 Raj Patel - 202401153    
 - 📌 Pranshu Patel - 202401167  
 
 ---
