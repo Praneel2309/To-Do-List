@@ -8,13 +8,9 @@ A colorful, feature-rich command-line To-Do List application built in C++. This 
 
 To-Do List Manager is a C++ console application that provides a comprehensive solution for task management. The application features a visually appealing interface with ANSI color formatting, smooth animations, and a robust task management system. Perfect for students, professionals, or anyone looking to organize their daily activities.
 
-### 🖼️ Screenshots
+![🎬 Intro Animation Screenshot](./f88a75af-e2b5-4a2d-be05-cd8a2488ca2f.png)
 
-#### 🎬 Intro Animation
-![Intro Animation](assets/intro.png)
-
-#### 📋 Main Interface
-![Main Menu](assets/menu.png)
+![🧭 Main Interface Screenshot](./8d0b140a-c32b-4727-8641-eb0ecbc91f8a.png)
 
 ---
 
@@ -22,24 +18,24 @@ To-Do List Manager is a C++ console application that provides a comprehensive so
 
 ### What can you do with To-Do List Manager?
 
-✅ Add tasks with detailed information (name, priority, due date, time, category)  
-📋 View all tasks in a colorful, organized format  
-🔄 Sort tasks by priority or due date  
-✓ Mark tasks as completed  
-🗑️ Remove unwanted tasks  
-✏️ Edit existing task details  
-💾 Save tasks to file for persistent storage  
-🟢 View completed tasks separately  
-🟡 View pending tasks separately  
+- ✅ Add tasks with detailed information (name, priority, due date, time, category)
+- 📋 View all tasks in a colorful, organized format
+- 🔄 Sort tasks by priority or due date
+- ✓ Mark tasks as completed
+- 🗑️ Remove unwanted tasks
+- ✏️ Edit existing task details
+- 💾 Save tasks to file for persistent storage
+- 🟢 View completed tasks separately
+- 🟡 View pending tasks separately
 
 ### Key Features:
 
-🎨 Colorful UI with ANSI color formatting  
-🎬 Smooth intro animation  
-📊 Task categorization and prioritization  
-⏰ Time management with start and end times  
-🧠 Smart validation to prevent scheduling conflicts  
-💾 File I/O for persistent task storage  
+- 🎨 Colorful UI with ANSI color formatting
+- 🎬 Smooth intro animation
+- 📊 Task categorization and prioritization
+- ⏰ Time management with start and end times
+- 🧠 Smart validation to prevent scheduling conflicts
+- 💾 File I/O for persistent task storage
 
 ---
 
@@ -48,6 +44,7 @@ To-Do List Manager is a C++ console application that provides a comprehensive so
 The application code is structured into functions that handle specific aspects of task management:
 
 ### Core Components
+
 - `struct Task`: Defines the data structure for task information
 - `displayIntroAnimation()`: Creates an engaging startup animation
 - `displayMenu()`: Shows the colorful main menu
@@ -62,32 +59,81 @@ The application code is structured into functions that handle specific aspects o
 
 ### Data Types Used
 
-- **Structs**: The `Task` struct encapsulates all task-related information  
-- **Vectors**: Used for dynamic task collection management  
-- **Strings**: For text data including task names, dates, and times  
-- **File Streams**: For reading and writing task data to persistent storage  
-- **ANSI Color Codes**: Constants for UI enhancement  
+- 🧱 **Structs**: The `Task` struct encapsulates all task-related information
+- 🧮 **Vectors**: Used for dynamic task collection management
+- 🔤 **Strings**: For text data including task names, dates, and times
+- 📂 **File Streams**: For reading and writing task data to persistent storage
+- 🌈 **ANSI Color Codes**: Constants for UI enhancement
 
 ---
 
 ## ⚖️ Design Decisions
 
-| Feature               | Pros                                        | Cons                               |
-|-----------------------|---------------------------------------------|------------------------------------|
-| Console-based UI      | Simple, lightweight, cross-platform         | Limited graphical capabilities     |
-| ANSI color formatting | Enhances UI without external libraries      | May not work on all consoles       |
-| File-based storage    | Simple implementation, no DB required       | Limited querying & scalability     |
-| In-memory task list   | Fast and efficient                          | Dependent on system memory         |
-| Text-based input      | Easy and universal                         | Prone to human input errors        |
+| Feature                    | Pros                                            | Cons                                              |
+|----------------------------|--------------------------------------------------|---------------------------------------------------|
+| **Console-based UI**       | Simple, lightweight, works on most systems       | Limited graphical capabilities                     |
+| **ANSI color formatting**  | Enhances UI without external libraries           | May not work on all console environments           |
+| **File-based storage**     | Simple implementation, no database required      | Limited querying capabilities                      |
+| **In-memory task list**    | Fast operations, straightforward implementation  | Limited by available memory                        |
+| **Text-based input**       | Easy to implement, familiar interface            | Requires validation, prone to input errors         |
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- A C++ compiler (supports C++11 or later)
-- Terminal that supports ANSI color codes (like most modern terminals)
+
+- ✅ C++ compiler (supporting C++11 or later)
+- ✅ Terminal that supports ANSI color codes (most modern terminals do)
+
+
+## 📚 Usage Guide
+
+🎬 Launch the app to see the animated intro  
+🧭 Navigate using the numbered menu  
+➕ Add your first task using option 1  
+🔁 Use options 2–9 to manage your tasks  
+💾 Use option 7 to save and exit  
+
+---
+
+## 🔧 Future Enhancements
+
+🔁 Add recurring tasks  
+🗂️ Task categorization & filtering  
+🔍 Search tasks  
+⏰ Reminder notifications  
+🔗 Task dependencies  
+📤 Export to CSV / JSON  
+👥 User accounts for multi-user use  
+
+---
+
+## 🧩 Contributing
+
+👋 Contributions are welcome! Make this tool even better:
+
+🍴 Fork the repo  
+🌿 Create a branch: `git checkout -b feature/AmazingFeature`  
+💾 Commit your changes: `git commit -m 'Add some AmazingFeature'`  
+🚀 Push to GitHub: `git push origin feature/AmazingFeature`  
+📬 Open a Pull Request  
+
+---
+
+## 📄 License
+
+📜 This project is licensed under the MIT License – see the LICENSE file for details.
+
+---
+
+## 👏 Acknowledgments
+
+🎨 ANSI color inspiration from open-source projects  
+🖼️ ASCII art techniques for the intro animation  
+💻 The C++ Standard Library for data handling and file I/O  
 
 ### Compilation
+
 ```bash
 g++ -std=c++11 todo_list_manager.cpp -o todo_list_manager
