@@ -1,114 +1,110 @@
-# 📝✨ To-Do List Manager
+# 📝 To-Do List Manager
 
-A colorful, feature-rich **command-line To-Do List application built in C++**!  
-This app helps you manage your tasks efficiently with **priority sorting**, **due dates**, **time tracking**, and more — all in a vibrant terminal UI! 🌈💼
+A colorful, feature-rich command-line To-Do List application built in C++. This application helps you manage your tasks efficiently with priority sorting, due dates, time management, and more!
 
 ---
 
 ## 📌 Project Overview
 
-**To-Do List Manager** is a **C++ console application** designed for maximum productivity and clarity.  
-Perfect for 🎓 students, 💼 professionals, and anyone who loves to stay organized.
+To-Do List Manager is a C++ console application that provides a comprehensive solution for task management. The application features a visually appealing interface with ANSI color formatting, smooth animations, and a robust task management system. Perfect for students, professionals, or anyone looking to organize their daily activities.
 
-🎨 Beautiful ANSI color formatting  
-🎬 Smooth ASCII intro animation  
-📁 Robust file-based task storage  
-✅ Smart task handling and sorting
+![🎬 Intro Animation Screenshot](./f88a75af-e2b5-4a2d-be05-cd8a2488ca2f.png)
 
-![📽️ Intro Animation Screenshot](placeholder-for-intro-screenshot.png)  
-![🧾 Main Interface Screenshot](placeholder-for-main-interface-screenshot.png)
+![🧭 Main Interface Screenshot](./8d0b140a-c32b-4727-8641-eb0ecbc91f8a.png)
 
 ---
 
 ## ❓ Features & Functionality
 
-### 🛠️ What can you do with To-Do List Manager?
+### What can you do with To-Do List Manager?
 
-- ✅ Add tasks with name, priority, due date, time, and category  
-- 📋 View tasks in a colorful, organized list  
-- 🔄 Sort by priority or due date  
-- ☑️ Mark tasks as completed  
-- 🗑️ Delete tasks you no longer need  
-- 📝 Edit existing tasks  
-- 💾 Save tasks to file  
-- 🟢 View completed tasks  
-- 🟡 View pending tasks  
+- ✅ Add tasks with detailed information (name, priority, due date, time, category)
+- 📋 View all tasks in a colorful, organized format
+- 🔄 Sort tasks by priority or due date
+- ✓ Mark tasks as completed
+- 🗑️ Remove unwanted tasks
+- ✏️ Edit existing task details
+- 💾 Save tasks to file for persistent storage
+- 🟢 View completed tasks separately
+- 🟡 View pending tasks separately
 
-### 🚀 Key Features
+### Key Features:
 
-- 🎨 Colorful ANSI terminal UI  
-- 🎬 ASCII animation splash screen  
-- 📊 Categorization and prioritization  
-- ⏰ Start and end time tracking  
-- 🧠 Smart validation for scheduling conflicts  
-- 💾 File I/O for persistent task saving  
+- 🎨 Colorful UI with ANSI color formatting
+- 🎬 Smooth intro animation
+- 📊 Task categorization and prioritization
+- ⏰ Time management with start and end times
+- 🧠 Smart validation to prevent scheduling conflicts
+- 💾 File I/O for persistent task storage
 
 ---
 
 ## 🔍 Code Structure Overview
 
-### 📦 Core Components
+The application code is structured into functions that handle specific aspects of task management:
 
-- `struct Task`: Defines task data  
-- `displayIntroAnimation()`: Fun animated intro  
-- `displayMenu()`: Colorful main menu  
-- `addTask()`: Task creation and validation  
-- `viewTasks()`: List all tasks  
-- `sortAndDisplayTasks()`: Sort tasks  
-- `markCompleted()`: Complete a task  
-- `removeTask()`: Delete task  
-- `editTask()`: Modify task details  
-- `saveTasks()` / `loadTasks()`: File operations  
-- `viewCompletedTasks()` / `viewPendingTasks()`: Filtered views  
+### Core Components
 
-### 💾 Data Types Used
+- `struct Task`: Defines the data structure for task information
+- `displayIntroAnimation()`: Creates an engaging startup animation
+- `displayMenu()`: Shows the colorful main menu
+- `addTask()`: Handles new task creation with validation
+- `viewTasks()`: Displays all tasks with status indicators
+- `sortAndDisplayTasks()`: Enables sorting by priority or due date
+- `markCompleted()`: Updates task completion status
+- `removeTask()`: Deletes unwanted tasks
+- `editTask()`: Modifies existing task information
+- `saveTasks()` and `loadTasks()`: Handle file operations for persistence
+- `viewCompletedTasks()` and `viewPendingTasks()`: Filter tasks by status
 
-- 📦 **Structs** for task encapsulation  
-- 🧮 **Vectors** for dynamic storage  
-- 🔤 **Strings** for user input and task data  
-- 📄 **File Streams** for persistent storage  
-- 🎨 **ANSI Color Codes** for UI styling  
+### Data Types Used
+
+- 🧱 **Structs**: The `Task` struct encapsulates all task-related information
+- 🧮 **Vectors**: Used for dynamic task collection management
+- 🔤 **Strings**: For text data including task names, dates, and times
+- 📂 **File Streams**: For reading and writing task data to persistent storage
+- 🌈 **ANSI Color Codes**: Constants for UI enhancement
 
 ---
 
 ## ⚖️ Design Decisions
 
-| Feature                  | ✅ Pros                                      | ⚠️ Cons                                      |
-|--------------------------|----------------------------------------------|----------------------------------------------|
-| Console-based UI         | Lightweight, universal                      | No graphics support                          |
-| ANSI color formatting    | Vibrant without libraries                    | Terminal compatibility varies                |
-| File-based storage       | Easy to implement, portable                 | No complex querying                          |
-| In-memory task list      | Fast, simple                                | Memory-bound                                 |
-| Text-based input         | User-friendly, low-overhead                 | Needs good validation                        |
+| Feature                    | Pros                                            | Cons                                              |
+|----------------------------|--------------------------------------------------|---------------------------------------------------|
+| **Console-based UI**       | Simple, lightweight, works on most systems       | Limited graphical capabilities                     |
+| **ANSI color formatting**  | Enhances UI without external libraries           | May not work on all console environments           |
+| **File-based storage**     | Simple implementation, no database required      | Limited querying capabilities                      |
+| **In-memory task list**    | Fast operations, straightforward implementation  | Limited by available memory                        |
+| **Text-based input**       | Easy to implement, familiar interface            | Requires validation, prone to input errors         |
 
 ---
 
 ## 🚀 Getting Started
 
-### 🧰 Prerequisites
+### Prerequisites
 
-- 🔧 C++ compiler (C++11 or later)
-- 💻 Terminal with ANSI color support
+- ✅ C++ compiler (supporting C++11 or later)
+- ✅ Terminal that supports ANSI color codes (most modern terminals do)
 
 ## 📚 Usage Guide
 
-- 🎬 Launch the app to see the animated intro  
-- 🧭 Navigate using the numbered menu  
-- ➕ Add your first task using option 1  
-- 🔁 Use options 2–9 to manage your tasks  
-- 💾 Use option 7 to save and exit  
+🎬 Launch the app to see the animated intro  
+🧭 Navigate using the numbered menu  
+➕ Add your first task using option 1  
+🔁 Use options 2–9 to manage your tasks  
+💾 Use option 7 to save and exit  
 
 ---
 
 ## 🔧 Future Enhancements
 
-- 🔁 Add recurring tasks  
-- 🗂️ Task categorization & filtering  
-- 🔍 Search tasks  
-- ⏰ Reminder notifications  
-- 🔗 Task dependencies  
-- 📤 Export to CSV / JSON  
-- 👥 User accounts for multi-user use  
+🔁 Add recurring tasks  
+🗂️ Task categorization & filtering  
+🔍 Search tasks  
+⏰ Reminder notifications  
+🔗 Task dependencies  
+📤 Export to CSV / JSON  
+👥 User accounts for multi-user use  
 
 ---
 
@@ -116,27 +112,27 @@ Perfect for 🎓 students, 💼 professionals, and anyone who loves to stay orga
 
 👋 Contributions are welcome! Make this tool even better:
 
-1. 🍴 Fork the repo  
-2. 🌿 Create a branch: `git checkout -b feature/AmazingFeature`  
-3. 💾 Commit your changes: `git commit -m 'Add some AmazingFeature'`  
-4. 🚀 Push to GitHub: `git push origin feature/AmazingFeature`  
-5. 📬 Open a Pull Request  
+🍴 Fork the repo  
+🌿 Create a branch: `git checkout -b feature/AmazingFeature`  
+💾 Commit your changes: `git commit -m 'Add some AmazingFeature'`  
+🚀 Push to GitHub: `git push origin feature/AmazingFeature`  
+📬 Open a Pull Request  
 
 ---
 
 ## 📄 License
 
-📜 This project is licensed under the **MIT License** – see the `LICENSE` file for details.
+📜 This project is licensed under the MIT License – see the LICENSE file for details.
 
 ---
 
 ## 👏 Acknowledgments
 
-- 🎨 ANSI color inspiration from open-source projects  
-- 🖼️ ASCII art techniques for the intro animation  
-- 💻 The C++ Standard Library for data handling and file I/O  
-
-### 🛠️ Compilation
+🎨 ANSI color inspiration from open-source projects  
+🖼️ ASCII art techniques for the intro animation  
+💻 The C++ Standard Library for data handling and file I/O  
+ 
+### Compilation
 
 ```bash
 g++ -std=c++11 todo_list_manager.cpp -o todo_list_manager
