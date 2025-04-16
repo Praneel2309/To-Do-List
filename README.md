@@ -86,10 +86,6 @@ The application code is structured into functions that handle specific aspects o
 - C++ compiler (supporting C++11 or later)
 - Terminal that supports ANSI color codes (most modern terminals do)
 
-## Compilation
-
-```bash
-g++ -std=c++11 todo_list_manager.cpp -o todo_list_manager
 
 # 📚 Usage Guide
 
@@ -135,4 +131,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - ANSI color formatting ideas from various open-source projects  
 - ASCII art techniques for the intro animation  
-- C++ standard library for file I/O and data structures  
+- C++ standard library for file I/O and data structures
+
+  ## Compilation
+
+```bash
+g++ -std=c++11 todo_list_manager.cpp -o todo_list_manager
