@@ -8,7 +8,7 @@ A colorful, feature-rich command-line To-Do List application built in C++. This 
 
 To-Do List Manager is a C++ console application that provides a comprehensive solution for task management. The application features a visually appealing interface with ANSI color formatting, smooth animations, and a robust task management system. Perfect for students, professionals, or anyone looking to organize their daily activities.
 
-![🎬 Intro Animation Screenshot](./f88a75af-e2b5-4a2d-be05-cd8a2488ca2f.png)
+![Image Alt]()
 
 ![🧭 Main Interface Screenshot](./8d0b140a-c32b-4727-8641-eb0ecbc91f8a.png)
 
