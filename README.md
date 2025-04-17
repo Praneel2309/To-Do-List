@@ -13,6 +13,7 @@ A colorful ASCII art splash screen displaying "TO-DO LIST" with a checkmark logo
 
 
 ![Image Alt](https://github.com/Praneel2309/To-Do-List/blob/main/WhatsApp%20Image%202025-04-16%20at%2013.48.31.jpeg?raw=true)
+
 The main menu interface of a To-Do List Manager showing nine color-coded options including adding, viewing, sorting, and managing tasks, with a prompt asking the user to enter their choice.
 
 
