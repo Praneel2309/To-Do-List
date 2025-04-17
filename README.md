@@ -114,6 +114,33 @@ The application code is structured into functions that handle specific aspects o
 👥 User accounts for multi-user use  
 
 ---
+# 📝 To-Do List Application
+
+## 👥 Team - Bug Busters 🏆
+
+This project was developed by **Bug Busters**, a passionate and dedicated team from **Dhirubhai Ambani University (DAU)**. From ideation to deployment, we put our minds together to build a sleek and intuitive **To-Do List Application** that goes beyond simple task management with features like dynamic filtering, task prioritization, and a clean, responsive UI.
+
+---
+
+## 💡 Our Journey
+
+Our journey involved deep dives into frontend-backend integration, refining user interaction, and ensuring a seamless experience across devices. Whether it was designing the task lifecycle, optimizing the UI/UX, or implementing real-time updates, every line of code reflected our commitment to quality and functionality.
+
+We faced challenges along the way—structuring the codebase for scalability, syncing data efficiently, and ensuring a bug-free user flow. But each obstacle helped us grow as developers, strengthened our teamwork, and pushed us to think creatively and critically about user-centric software design.
+
+---
+
+This app is more than a productivity tool; it's a **symbol of our collaboration, growth, and shared love for solving real-world problems through code**. We hope this To-Do List makes your day a little more organized—because building it certainly made ours better! ✅🚀
+
+---
+
+## 👨‍💻 Team Members
+
+- 📌 Nihar Patel - 202401148  
+- 📌 Raj Patel - 202401153  
+- 📌 Praneel Sharma - 202401166  
+- 📌 Pranshu Patel - 202401167
+
 
 ## 🧩 Contributing
 
