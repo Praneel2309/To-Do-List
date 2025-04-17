@@ -154,11 +154,6 @@ This app is more than a productivity tool; it's a **symbol of our collaboration,
 
 ---
 
-## 📄 License
-
-📜 This project is licensed under the MIT License – see the LICENSE file for details.
-
----
 
 ## 👏 Acknowledgments
 
